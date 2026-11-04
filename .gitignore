@@ -16,6 +16,9 @@ venv/
 # Planos gerados pelo agente (dados pessoais)
 planos/
 
+# Clone duplicado local
+alura-imersao-dev-agy/
+
 # Sistema e editores
 .DS_Store
 .vscode/

@@ -1,0 +1,32 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "gating_pedido_incompleto",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Quero organizar meus estudos de JavaScript."}]
+      },
+      "reference": {
+        "response": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Para montar seu plano de estudos de JavaScript, preciso confirmar algumas informações que faltam: qual é o seu objetivo específico e prazo (data de início e data-alvo), sua disponibilidade (dias da semana, horas por dia e horário) e seu nível atual no assunto."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "eval_case_id": "plano_completo_javascript",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Quero aprender JavaScript para fazer meu primeiro projeto de portfólio em 2 semanas. Começo na próxima segunda-feira. Posso estudar segunda, quarta e sexta, 2h por dia às 19h. Já sei HTML e CSS, mas nunca programei."
+          }
+        ]
+      }
+    }
+  ]
+}
